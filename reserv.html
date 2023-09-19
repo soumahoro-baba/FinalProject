@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reservation</title>
+</head>
+<body>
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    
+    <header>
+        
+        <nav  class="navbar navbar-expand-sm.navbar- fixed-top">
+            <div class="collapse navbar-collapse">
+             <a href="index.html" class="logo"><span>R</span>esto-nawa</a>
+               <ul class="navbar-nav">
+                 <li> <a href="index.html" >Accueil</a></li>
+                 <li><a href="index.html#apropos">Apropos</a></li>
+                 <li><a href="index.html#menu" >Menu</a></li>
+                 <li><a href="index.html#expert">Expert</a></li>
+                 <li><a href="index.html#temoignage">Temoignage</a></li>
+                 <li><a href="index.html#contact">Contact</a></li>
+                <a href="reserv.html" class="btn-reserv">Reservation</a>
+              </ul>
+            </div>
+         </nav>
+        </header>
+        
+ 
+    <br>
+    
+    <main>
+    <fieldset class="blanc">
+        <table border="1" class="vel" >
+
+            <!--Legende-->
+        
+        <legend ><strong>Plats du Resto-nawa</strong></legend>
+          <!-- En-tete-->
+         <thead>
+           <tr>
+               <th>Plats principaux</td>
+               <th>Prix</td>
+               <th>Achat</td>
+           </tr>
+         </thead>
+       <!-- Corps du tableau -->
+         <tbody>
+           <tr>
+             <td>Frites aux poulets</td>
+             <td>6500 fr</td>
+             <td><a href="comnde.html"><button>Commander</button></a></td>
+           </tr>
+           <tr>
+               <td>Salades sautées</td>
+               <td>4500 fr</td>
+               <td><a href="comnde.html"><button>Commander</button></a></td>
+             </tr>
+         </tbody>
+       </table>
+      </fieldset>
+      <fieldset class="blanc">
+        <table border="1" class="vel" >
+            <!--Legende-->
+        <legend><strong>Plats du Resto-nawa</strong></legend>
+          <!-- En-tete-->
+         <thead>
+           <tr>
+               <th>Plats principaux</td>
+               <th>Prix</td>
+               <th>Achat</td>
+           </tr>
+         </thead>
+       <!-- Corps du tableau -->
+         <tbody>
+           <tr>
+             <td>Poisson La braise</td>
+             <td>3500 fr</td>
+             <td><a href="comnde.html"><button>Commander</button></a></td>
+           </tr>
+           <tr>
+               <td>Shawarma de Londre</td>
+               <td>4500 fr</td>
+               <td><a href="comnde.html"><button>Commander</button></a></td>
+             </tr>
+         </tbody>
+       </table>
+      </fieldset>
+      <br>
+       <footer>
+        <address><strong>128 rue 35 Marcory centre</strong></address> 
+     </footer>
+    </main>
+       
+    <main>
+       <fieldset class="blanc">
+        <table border="1" class="vel">
+            <!--Legende-->   
+        <legend><strong> Boissons du Resto-nawa</strong></legend>
+          <!-- En-tete-->
+         <thead>
+           <tr>
+               <th>Boissons speciales</td>
+               <th>Prix</td>
+               <th>Achat</td>
+           </tr>
+         </thead>
+       <!-- Corps du tableau -->
+         <tbody>           
+           <tr>  
+             <td> Américain Cola light</td>
+             <td>2700 fr</td>
+             <td><a href="boissn.html"><button>Commander</button></a></td>
+           </tr>
+           <tr>
+               <td>Luis de Paname</td>
+               <td>2500 fr</td>
+               <td><a href="boissn.html"><button>Commander</button></a></td>    
+             </tr>      
+         </tbody>  
+       </table>
+    </fieldset>
+  
+   <br>
+       <footer>
+        <address><strong>128 rue 35 Marcory centre</strong></address> 
+     </footer>
+     <div class="d-none d-md-block col-md-6">
+        <span class="typed"></span>
+    </div>
+  </main>
+
+    <script type="text/javascript">
+        window.addEventListener('scroll', function(){
+            const header =document.querySelector('header');
+            header.classList.toggle("sticky",window.scrollY >0 );
+        });
+    </script>
+</body>
+</html>
