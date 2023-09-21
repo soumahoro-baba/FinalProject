@@ -192,7 +192,7 @@ section{
     margin-top: -80px;
 }
 .Menu .titre p{
-   
+    padding: 10px;
     text-align: center;
 }
 .Menu .contenu{
@@ -254,7 +254,10 @@ section{
     justify-content:center ;
     margin:35px;
 }
-
+.expert .titre p{
+   padding: 10px;
+    text-align: center;
+}
 .expert .titre-t{
     text-align: center;
     font-weight: 300px;
@@ -336,6 +339,7 @@ section{
 }
 
 .blanc p{
+    text-align: center;
      color:#fff ;
 }
 .contact{
