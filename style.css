@@ -39,6 +39,7 @@ header .navbar li a:hover{
     color: #fb911f;
     border-bottom: 2px solid;
 }
+
 .logo{
     
     font-weight: bolder;
@@ -102,7 +103,7 @@ a:hover{
     text-transform: capitalize;
 }
 .contenu p:nth-child(2){
-    color: #fff;
+    color: cornsilk;
     font-size: 1.2em;
 }
 .btn1{
