@@ -191,6 +191,10 @@ section{
 .Menu{
     margin-top: -80px;
 }
+.Menu .titre p{
+   
+    text-align: center;
+}
 .Menu .contenu{
    
     display: flex;
